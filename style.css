@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  color: #0f172a;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.header-content {
+  width: 60%;
+}
+
+.header-content h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.header-content p {
+  font-size: 18px;
+  color: #475569;
+  margin-top: 6px;
+}
+
+.img-div {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #e5e7eb;
+}
+
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #2563eb;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.projectSection {
+  background-color: #f8fafc;
+  padding: 40px 0;
+}
+
+.projectSection h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.project_card_mainDiv {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.project_card {
+  width: 380px;
+  height: 260px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+}
+
+.project_card_Inside_Div {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.project_card h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.project_card a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.project_card p {
+  margin-top: 30px;
+  font-size: 15px;
+  color: #475569;
+}
+
+.skill_Section {
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+.skill_Section h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.skillList {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skillList li {
+  list-style: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid #2563eb;
+  background-color: #eff6ff;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+
+.Education_section {
+  background-color: #f8fafc;
+  padding: 40px 0;
+}
+
+.Education_section h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.table_div {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 85%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+thead {
+  background-color: #2563eb;
+}
+
+thead th {
+  padding: 12px;
+  color: white;
+  font-weight: 600;
+}
+
+tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+
+.Form_section {
+  background-color: #ffffff;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e5e7eb;
+}
+
+form {
+  width: 400px;
+}
+
+form label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+button {
+  margin-top: 14px;
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
