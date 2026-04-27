@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #fff;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 40px rgba(0, 255, 170, 0.1);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #00ffaa;
+  margin-bottom: 20px;
+}
+
+/* Input */
+textarea {
+  width: 100%;
+  height: 90px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: rgba(255,255,255,0.08);
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 10px auto 20px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(45deg, #00ffaa, #00c3ff);
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px #00ffaa;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+th {
+  background: #00ffaa;
+  color: black;
+  padding: 10px;
+}
+
+td {
+  background: rgba(255,255,255,0.05);
+  padding: 8px;
+  text-align: center;
+}
+
+/* Tree */
+#tree {
+  background: rgba(0,0,0,0.4);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+/* Steps */
+ul {
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+ul li {
+  padding: 5px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Output Boxes */
+p {
+  background: rgba(255,255,255,0.05);
+  padding: 10px;
+  border-radius: 8px;
+  word-wrap: break-word;
+}
+
+/* Ratio */
+#ratio {
+  text-align: center;
+  font-size: 20px;
+  color: #ffd700;
+  margin-top: 15px;
+}
